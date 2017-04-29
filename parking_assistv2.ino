@@ -1,5 +1,5 @@
 /*************************************************************************************
- PARTS: UNO, Adafruit CharlieWing, Ultrasonic Sensor (HRC-S04), PIR motion
+ PARTS: UNO, Adafruit CharlieWing, Ultrasonic Sensor (HC-SR04), PIR motion
 
  GOAL: when motion is detected, measure the distance detected. Provide the distance to 
  target on the CharlieWing to provide parking distance estimation useful when backing
