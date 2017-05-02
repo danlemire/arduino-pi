@@ -27,20 +27,9 @@ void loop()
   val = digitalRead(Shock); //read the value of the digital input used with the shock sensor.
   if (val == LOW)
   { 
-    if (LEDstate == 0) LEDon();
-    else LEDoff();  
+    LEDstate = !LEDstate;  
+    digitalWrite(LED,LEDstate);
     delay(200);
   }
 }  
 
-void LEDon()
-{
-  digitalWrite(LED, HIGH);
-  LEDstate = 1;
-}
-
-void LEDoff()
-{
-  digitalWrite(LED, LOW);
-  LEDstate = 0;  
-}
