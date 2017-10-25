@@ -1,0 +1,6 @@
+1x - Arduino UNO R3 or clone: https://www.amazon.com/dp/B01FS3QPGQ/ref=cm_sw_r_oth_api_73-7zbBB15M75
+1x - HC-SR04 Ultrasonic Sensor (SONAR) - https://www.amazon.com/dp/B01M59LW3H/ref=cm_sw_r_oth_api_b3-7zbQ3W55GM
+1x - HC-SR502 Infrared Motion sensor (PIR) - https://www.amazon.com/dp/B013LA6MWA/ref=cm_sw_r_oth_api_Q1-7zbTX0MSHJ
+1x - CharliePlex LED Matrix Featherwing - https://www.adafruit.com/product/3137
+1x - USB B connector cables + 1x - USB plug for connecting power for USB or 9v barrel plug adaptor for Arduino
+11 - Dupont cables for connecting LED, SONAR, PIR - https://www.amazon.com/gp/product/B00AYCON8Y/
