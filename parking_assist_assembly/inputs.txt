@@ -1,0 +1,23 @@
+
+These definition statements control which input/outputs do on the arduino.
+
+So, for example, the trigger pin on the ultrasonic is plugged into arduino GPIO 12, and the echo pin is right next to it, on input 11.
+
+The tricky ones to understand are the connects that are set to 5v or ground.
+We are using the code to set the pin to either 0 or 5v by pulling it up or down.
+
+In the case of the PIR, it's fine with both 5v and ground from a PIN.
+The ultrasonic likes to be connected to an actual 5v pin so it has enough power.
+
+Lastly, the adafruit LED scren just needs the 3v, so it gets the 3v pin (and we can't set a pin to 3v, since Uno3 only has 5v logic) 
+
+
+#define TRIGGER_PIN  12  // Arduino pin tied to trigger pin on the ultrasonic sensor.
+#define ECHO_PIN     11  // Arduino pin tied to echo pin on the ultrasonic sensor.
+#define MAX_DISTANCE 425 // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
+
+#define PIR5v        2
+#define PIRtrigger   3
+#define PIRgnd       4
+#define PIRaction    13
+#define GND          10
